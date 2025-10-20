@@ -18,4 +18,11 @@ function mouseOut() {
     nameInput.style.color = "black";
 }
 
-
+form.addEventListener("submit", e =>{
+    e.preventDefault();
+    if (!nameInput.value || !emailInput.value || !comments.value) {
+        alert("Please fill out all fields!");
+        return;
+    }
+    
+});
