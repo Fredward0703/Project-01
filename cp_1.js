@@ -36,3 +36,7 @@ form.addEventListener("submit", e =>{
     charCount.textContent = "Characters: 0";
 });
 
+document.addEventListener("click", () => {
+    console.log("Clicking in background");
+});
+
