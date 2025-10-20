@@ -6,3 +6,12 @@ body{
 input, textarea{
     width: 250px;
 }
+
+.tooltip{
+    background: #333;
+    color: white;
+    padding: 4px 8px;
+    position: absolute;
+    border-radius: 4px;
+    font-size: 12px;
+}
