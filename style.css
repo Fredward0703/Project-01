@@ -26,3 +26,9 @@ input, textarea{
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+#feedback-display{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px black;
+}
