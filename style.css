@@ -8,10 +8,21 @@ input, textarea{
 }
 
 .tooltip{
-    background: #333;
-    color: white;
-    padding: 4px 8px;
     position: absolute;
-    border-radius: 4px;
-    font-size: 12px;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltiptext{
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
