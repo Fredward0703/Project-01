@@ -40,3 +40,6 @@ document.addEventListener("click", () => {
     console.log("Clicking in background");
 });
 
+form.addEventListener("click", stop => {
+    stop.stopPropagation();
+});
